@@ -13,8 +13,8 @@ import CIcon from '@coreui/icons-react'
 
 import { AppSidebarNav } from './AppSidebarNav'
 
-import  jack from 'src/assets/brand/jack.png'
-import { sygnet } from 'src/assets/brand/sygnet'
+import  jack from '../assets/brand/jack.png'
+import { sygnet } from '../assets/brand/sygnet'
 
 // sidebar nav config
 import navigation from '../_nav'

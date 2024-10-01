@@ -27,37 +27,29 @@ import {
   cibCcPaypal,
   cibCcStripe,
   cibCcVisa,
- 
   cifBr,
   cifEs,
   cifFr,
   cifIn,
   cifPl,
   cifUs,
- 
   cilCloudDownload,
   cilPeople,
   cilUser,
   cilUserFemale,
 } from '@coreui/icons'
-
-import avatar1 from 'src/assets/images/avatars/1.jpg'
-import avatar2 from 'src/assets/images/avatars/2.jpg'
-import avatar3 from 'src/assets/images/avatars/3.jpg'
-import avatar4 from 'src/assets/images/avatars/4.jpg'
-import avatar5 from 'src/assets/images/avatars/5.jpg'
-import avatar6 from 'src/assets/images/avatars/6.jpg'
+import avatar1 from '../../assets/images/avatars/1.jpg'
+import avatar2 from '../../assets/images/avatars/2.jpg'
+import avatar3 from '../../assets/images/avatars/3.jpg'
+import avatar4 from '../../assets/images/avatars/4.jpg'
+import avatar5 from '../../assets/images/avatars/5.jpg'
+import avatar6 from '../../assets/images/avatars/6.jpg'
 
 import WidgetsBrand from '../widgets/WidgetsBrand'
 import WidgetsDropdown from '../widgets/WidgetsDropdown'
 import MainChart from './MainChart'
 
 const Dashboard = () => {
-
-
-
-
-
   const tableExample = [
     {
       avatar: { src: avatar1, status: 'success' },
@@ -188,13 +180,10 @@ const Dashboard = () => {
             lg={{ cols: 4 }}
             xl={{ cols: 5 }}
             className="mb-2 text-center"
-          >
-           
-          </CRow>
+          ></CRow>
         </CCardFooter>
       </CCard>
       <WidgetsBrand className="mb-4" withCharts />
-      
     </>
   )
 }
